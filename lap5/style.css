@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.anh{
+    margin-top: 1%;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+h1{
+    color: red;
+}
+.an{
+
+    margin-top: 1%;
+    margin-left: 20%;
+    display: none;
+}
+
+.anh img{
+    width: 300px;
+}
+.anh p{
+    position: relative;
+    top: 180px;
+  margin-left: -300px;
+}
+@media (max-width:400px) {
+  .anh{
+    display: none;
+  }
+  .an{
+   
+    display: block;
+  }
+}
