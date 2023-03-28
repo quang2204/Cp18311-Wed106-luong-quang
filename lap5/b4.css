@@ -1,0 +1,64 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle-label {
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    position: relative;
+    width: 30px;
+  }
+  
+  .nav-toggle-label span,
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s ease-in-out;
+  }
+  
+
+  
+  .menu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
