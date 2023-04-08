@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppe bán hàng Lazada</title>
+    <link rel="shortcut icon" href="https://taiungdung.vn/wp-content/uploads/2019/02/shopee-logo-768x769.png"
+                                                                                                                            type="image/x-icon">
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+                                                                                                                        crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+                                                                                                                        crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <style>
+        .navbar-collapse {
+            flex-grow: 0;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Shopee.svg/1200px-Shopee.svg.png"
+                                                                                                                                        width="140px"
+                                                                                                                                        alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                                                                                                                    aria-expanded="false"
+                                                                                                                                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Trang chủ </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                                                                                                                                aria-expanded="false">
+                            Liên hệ
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Email:Quangltph37691@fpt.edu.vn</a></li>
+                            <li><a class="dropdown-item" href="#">Sđt:0949699222</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Đăng nhập </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+                                                                                                                                    aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                                                                                                                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                                                                                                                    aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cf.shopee.vn/file/vn-50009109-d7e2a6fa50391c813fe9b95105d067dd_xxhdpi" class="d-block w-100 "
+                                                                                                                                        alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cf.shopee.vn/file/vn-50009109-fa79715264f5c973648d8096a8aa9773_xxhdpi" class="d-block w-100"
+                                                                                                                                        alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cf.shopee.vn/file/vn-50009109-4ec94b58cfcf40c263142c81967741fb_xxhdpi" class="d-block w-100"
+                                                                                                                                        alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                                                                                                                                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                                                                                                                                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- thân  -->
+
+    <div class="  d-flex flex-wrap justify-content-center ">
+
+        <div class="card m-3  ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+        <div class="card m-3 ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+        <div class="card m-3 ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+        <div class="card m-3 ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+        <div class="card m-3 ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+        <div class="card m-3">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+        <div class="card m-3 ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+        <div class="card m-3 ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+        <div class="card m-3 ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+        <div class="card m-3 ">
+            <img src="https://shopdunk.com/images/uploaded/Anh%20San%20Pham/iPhone_14_Pro_Max_Gold_Pure_Back_iPhone_14_Pro_Max_Gold_Pure_Front_2-up_Screen__USEN.png"
+                                                                                                                                    class="card-img-top"
+                                                                                                                                    alt="...">
+            <div class="card-body ">
+                <h5 class="card-title"> iPhone 14 Pro Max 1TB - Mới </h5>
+                <p style="color: red; font-size: 20px;">
+                    32.990.000 ₫
+                </p>
+                <p class="km">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                <div class="star-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+
+    <footer class="footer">
+        <div class="grid wide footer__content">
+            <div class="row">
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Shopee Blog</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn bán hàng</a>
+                        </li></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Giới thiệu</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Danh mục</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item col">
+                            <a href="" class="footer-item__link">iphone 14 pro max</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">iphone 13 pro max</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">iphone 14 pro</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6">
+                    <h3 class="footer__heading">Theo dõi</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-facebook"></i>
+                                <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" width="20px" alt="">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-instagram"></i>
+                                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="20px" alt="">
+                                Instagram
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-8 c-12">
+                    <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer__download">
+                        <img src="https://f8ubuntu.online/assets/img/qr_code.png" alt="Download QR"
+                                                                                                                                                class="footer__download-qr" />
+                        <div class="footer__download-apps">
+                            <a href="" class="footer__download-app-link">
+                                <img src="https://f8ubuntu.online/assets/img/google_play.png" alt="Google play"
+                                                                                                                                                        class="footer__download-app-img" />
+                            </a>
+                            <a href="" class="footer__download-app-link">
+                                <img src="https://f8ubuntu.online/assets/img/app_store.png" alt="App store"
+                                                                                                                                                        class="footer__download-app-img" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="grid wide">
+                <p class="footer__text">© 2023 - Bản quyền thuộc về Lương Thành quang</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

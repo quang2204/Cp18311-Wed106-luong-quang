@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+nav li a:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.navbar-brand img{
+margin-left: 20px;
+}
+.card-title{
+    cursor:pointer;
+}
+.card-img-top{
+    margin-left: -200px;
+}
+
+.card{
+   
+    outline: 1px solid #ff0000;
+    transition: outline 1s cubic-bezier(0.16, 1, 0.3, 1) 0s;
+    border-radius: 10px;
+    box-shadow:  5px 5px #c9c7c7;
+    width:260px;
+    height: 470px;
+    
+  
+}
+.star-container {
+   margin-top: -10px;
+    display: flex;
+    justify-content: start;
+  }
+  .km{
+     background-color: #e7e4e4;
+    height: 50px;
+    margin-top: -20px;
+  }
+  .star {
+    width: 20px;
+    height: 30px;
+    background: url("https://thuviendohoa.vn/2020/upload/images/items/vector-ngoi-sao-3d-dep-2578.jpg?t=20160709_094638") no-repeat center / contain;
+  }
+  
+.btn:hover{
+    background-color: black;
+}
+.card:hover{
+    outline: 4px solid #ffff00;
+}
+.card img{
+    margin-left: 10%;
+    width: 200px;
+}
+.footer {
+    padding-top: 16px;
+    border-top: 4px solid #EE4D2D;
+    background-color:  #fff;
+    width: 99%;
+}
+
+.footer__heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-item__link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #737373;
+   
+    display: flex;
+    align-items: center;
+}
+
+.footer-item__link:hover {
+    color: orangered;
+}
+
+.footer-item__icon {
+    font-size: 1.6rem;
+    margin: -1px 8px 0 0;
+}
+
+.footer__download {
+    display: flex;
+}
+
+.footer__download-qr {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #dbdbdb;
+}
+
+.footer__download-apps {
+    flex: 1;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__download-app-img {
+    height: 16px;
+}
+
+
+
+.footer__bottom {
+    padding: 8px 0;
+    background-color: #F5F5F5;
+    margin-top: 36px;
+}
+
+.footer__text {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #737373;
+}  
+@media (max-width:800px) {
+    .card{
+        
+        height: 480px;
+       }
+}
+@media (max-width:600px) {
+   .card{
+    width: 70%;
+    height: 580px;
+   }
+   .card img{
+
+    width: 70%;
+    height: 65%;
+   }
+   
+}
+
+@media (max-width:376px) {
+    .card img{
+        width: 230px;
+        margin-left: -2%;
+       }
+       .card{
+      
+        height: 510px;
+       }
+}
